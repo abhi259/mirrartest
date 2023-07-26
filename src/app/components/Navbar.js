@@ -63,12 +63,11 @@ export const Navbar = () => {
     }
   }
 
-  useEffect(() => {
-    getUserLocation()
-  }, [])
+
 
   return (
-    <div className="flex justify-between md:justify-around items-center py-3 px-2">
+    
+    <div className="flex justify-between items-center py-3 px-2 max-w-[1200px] m-auto">
       <div className=" ">
         <Image
           src="/mirrAr-white.png"
