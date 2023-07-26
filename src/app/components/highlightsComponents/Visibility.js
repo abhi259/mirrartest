@@ -7,7 +7,7 @@ export const Visibility = () => {
 
   const visibility = weatherInfo.list[0].visibility
   return (
-    <div className="flex flex-col   justify-center gap-3 backdrop-blur-sm bg-[#1b1b1bb8] rounded-2xl m-3 p-5 ">
+    <div className="flex flex-col grow  justify-center gap-3 backdrop-blur-sm bg-[#1b1b1bb8] rounded-2xl m-3 p-5 ">
     <div>
       <h1 className="font-bold text-lg ">Visibility:</h1>
     </div>
