@@ -23,7 +23,7 @@ export const Forecast = () => {
         <h1 className="font-bold text-lg ">Forecast:</h1>
         <div>
           {forecastWeatherData.map((item, index) => {
-            if (index != 1)
+            if (index != 0)
               return (
                 <div
                   key={item.dt}
