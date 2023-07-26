@@ -63,8 +63,6 @@ export const Navbar = () => {
     }
   }
 
-
-
   return (
     
     <div className="flex justify-between items-center py-3 px-2 max-w-[1200px] m-auto">
@@ -82,7 +80,7 @@ export const Navbar = () => {
         <input
           type="text"
           placeholder="Search city..."
-          className="outline-none  h-8 p-2 px-4 rounded-l-full text-[#d6d6d6] bg-[#212121] w-36"
+          className="outline-none  h-8 p-2 px-4 rounded-l-full text-[#d6d6d6] bg-[#212121] w-36 md:w-96"
           onChange={handleCityInput}
           onKeyDown={handleEnterKey}
           value={city}
