@@ -68,7 +68,7 @@ export const Navbar = () => {
     <div className="flex justify-between items-center py-3 px-2 max-w-[1200px] m-auto">
       <div className=" ">
         <Image
-          src="/mirrAr-white.png"
+          src="https://uploads-ssl.webflow.com/603f5d1df4ee233d15719fed/63c60f8d46467c32c8ffa03d_Union%20(1).png"
           alt="logo"
           autoFocus
           width={80}
